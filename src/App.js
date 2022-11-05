@@ -11,7 +11,7 @@ function App() {
     setListTitle('New Title');
   }, []);
 
-  const listItems = useMemo(() => [5, 3, 1, 10, 9], []);
+  const listItems = useMemo(() => [5, 3, 1, 10, 9, 12], []);
 
   return (
     <div className="app">
