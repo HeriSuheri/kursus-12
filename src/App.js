@@ -17,7 +17,7 @@ function App() {
     <div className="app">
       <DemoList title={listTitle} items={listItems} />
 
-      <Button onClick={changeTitleHandler}>List Title</Button>
+      <Button onClick={changeTitleHandler}>Title</Button>
 
     </div>
   );
