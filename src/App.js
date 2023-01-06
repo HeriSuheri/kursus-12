@@ -8,7 +8,7 @@ function App() {
   const [listTitle, setListTitle] = useState("My List");
 
   const changeTitleHandler = useCallback(() => {
-    setListTitle("New Title");
+    setListTitle("New  Baru");
   }, []);
 
   const listItems = useMemo(() => [5, 3, 1, 10, 9, 12, 14, 30, 33, 35, 40], []);
